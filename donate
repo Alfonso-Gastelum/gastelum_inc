@@ -1,0 +1,26 @@
+
+</form>
+<!DOCTYPE html>
+<html>
+<-- COMENT-->
+<head>
+  <title>Submit</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/travel.jpeg" />
+    
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick" />
+    <input type="hidden" name="hosted_button_id" value="NX9AW2N8T6ASL" />
+    <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    <img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
+
+    <p class="about-me"><strong><em>=)</em></strong></p>
+  </div>
+
+</body>
+
+</html>
