@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html >
+
+<head>
+	
+	<title>ESTE es un sitio de prueba.</title>
+	<link href="./home/zim/Escritorio/EJERCICIOSHTML/EJERCICIOSAPLICADOS/DESARROLLOWEB/resourses/css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Mi nombre es Zim.</h1>
+	<p>Es mi primera página web.</p>
+	<ul>
+		<li>Lunes</li>
+		<li>Martes</li>
+		<li>Miercoles</li>
+		<li>Jueves</li>
+		<li>Viernes</li>
+	</ul>
+	<p>Ésta es uno de mis sitios web favoritos: <a href= "https://twitter.com/" target="_blank">Google.</a></p>
+</body>
+
+</html>
