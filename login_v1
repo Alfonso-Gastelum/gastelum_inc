@@ -1,25 +1,108 @@
 
-
 <!DOCTYPE html>
-<html >
+<html>
 
 <head>
+  <meta charset="utf-8">
+  <title>..·· Login ··.. Soluciones Gastélum &#9885;<!--&#9883--></title>
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  
+  
+	<!-- ESTE SCRIPT ES SOLO DE PRUEBA-->
+  <script type="text/javascript">
+	function prueba(){
+		alert( "Hola parece que algo ocurrió, lo sentimos..." );
+		return;
+		alert( "Soy otra alerta :)" );
+		return;
+		}
+	</script>
+	<--
+	<style>
+		
 	
-	<title>ESTE es un sitio de prueba.</title>
-	<link href="./home/zim/Escritorio/EJERCICIOSHTML/EJERCICIOSAPLICADOS/DESARROLLOWEB/resourses/css/index.css" type="text/css" rel="stylesheet">
+	
+		<!--background-image: src="https://media3.giphy.com/media/7GHRDluBmx9O8/giphy.gif";
+		
+		https://media0.giphy.com/media/FgJ6FbfJGwztK/giphy.gif    eterno atardecer
+		
+		-->
+		
+		}
+	h2{
+		font-family: Courier;
+		color: #ADD8E6;
+		font-style: italic;
+		font-size: 20px;
+		
+		}
+	h3{
+		font-family: Cursiva;
+		color: black;
+		font-style: bold;
+		font-size: 10px;
+	}
+	
+	#donacion{
+		color: azure;
+		}
+		
+	#login_style{
+		color: #7B7BE5;
+		background-color: #E5E5E5;
+		}
+
+		
+	</style>
+	
+	-->
 </head>
 
-<body>
-	<h1>Mi nombre es Zim.</h1>
-	<p>Es mi primera página web.</p>
-	<ul>
-		<li>Lunes</li>
-		<li>Martes</li>
-		<li>Miercoles</li>
-		<li>Jueves</li>
-		<li>Viernes</li>
-	</ul>
-	<p>Ésta es uno de mis sitios web favoritos: <a href= "https://twitter.com/" target="_blank">Google.</a></p>
+
+<body <!--onLoad="prueba()"-->>
+  <header>
+	  <h1>Encuestas Gutiérrez</h1>
+	  
+  </header>
+  <!--HACER UN DROP BOX que muestre diferentes idiomas-->
+	<h2>Bienvenid@ y gracias por participar<br>en nuestras encuestas.</h2>
+	<h5>*Algunas preguntas pueden herir la sensibilidad del encuestad@,<br> si esto sucede, favor de hacer click en el botón --PASAR PREGUNTA--.</h5>
+	<h5>**SOLO MAYORES DE EDAD<a href="AGREGAR LINK">*</a></h5>
+	<!-- AGREGAR LINK ARRIBA A UNA PAGINA DE ADVERTENCIA DEL FBI -BROMA-
+	<form id="login_style">
+	<p>Usuario:</p>
+	<input = "text" name = "Ingrese Usuario:">
+	<br>
+	<p>Contraseña:</p>
+	<input type = "password" name = "Ingrese Contraseña:">
+	
+	</form>
+	-->
+	<div>
+		<input type="submit" value="Submit">
+		<input type="reset">
+	</div>
+	
+	<div>
+		<p>¿Se considera a usted mismo un pendejo?</p>
+		<input type="radio" name="gender" value="male" checked> Sí<br>
+		<input type="radio" name="gender" value="female"> A veces<br>
+		<input type="radio" name="gender" value="other"> No. <Sí>
+	</div>
+	<input type="button" value="Pasar Pregunta">
+  <!-- PIE DE PÁGINA INICIO-->
+  <footer>
+	<div>
+    <a href="https://media0.giphy.com/media/FgJ6FbfJGwztK/giphy.gif" id= "donacion">Contacto   </h3><!-- en el hoover con varios idiomas idem abajo -->
+    <a href="AGREGAR LINK" id= "donacion">Acerca de Nosotros   </h3><!-- redirecciona a pag con mision vision fotos bonitas etc -->
+    <a href="AGREGAR LINK" id= "donacion">Mapa del Sitio   </h3><!-- mover a servcios -->
+    <a href="AGREGAR LINK" id= "donacion">Pólitica de Privacidad   </a>
+    <a href="AGREGAR LINK" id= "donacion">Donaciones   </a>
+    </div>
+  </footer>
+  <!-- PIE DE PÁGINA FIN-->
 </body>
 
 </html>
